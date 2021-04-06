@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 # Caminho da imagem no disco
-path = "/home/enacom/Downloads/desafio_pixel_syngenta_digital/Syngenta.bmp"
+path = "/home/luan/Downloads/desafio_pixel_syngenta_digital/Syngenta.bmp"
 
 # Leitura da imagem usando a OpenCv
 img = cv2.imread(path)
