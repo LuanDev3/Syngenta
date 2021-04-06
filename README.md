@@ -18,7 +18,7 @@ A detecção dos pixels verdes foi realizada inicialmente a partir do valor RGB 
 
 Todos os pontos aparentemente possuem a mesma coloração, todavia, alterar uma unidade em qualquer canal pode gerar uma nova cor, de forma que não seja visível para os olhos. Outro ponto importante também, é que em projetos reais muitas das vezes um valor de interesse não é padrão e portanto o ideal é se trabalhar com um _intervalo de cor_. Nesse aspecto, foi definido um intervalo de cor com 15% de tolerância para cada canal do padrão RGB.
 
-Com posse do intervalo definido, cada pixel da imagem foi analisado individualmente e seu valor em RGB foi comparado para ver se estava dentro do intervalo definido. Em caso positivo, esse era considerado um pixel verde, e a contagem continuava, até se percorrer toda a imagem.
+Com posse do intervalo definido, cada pixel da imagem foi analisado individualmente e seu valor em RGB foi comparado para ver se estava dentro do intervalo definido. Em caso positivo, esse era considerado um pixel verde, e a contagem continuava, até se percorrer toda a imagem. O resultado final obtido, foi um total de **298** pixels verdes.
 
 ## Detecção da mensagem secreta
 
